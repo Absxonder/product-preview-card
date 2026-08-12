@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: hsl(30, 38%, 92%);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.card{
+    display:flex;
+    background-color: white;
+    justify-content: space-between;
+    width: 40vw;
+    height: 50vh;
+    border-radius: 2%;
+    
+}
+
+img {
+    min-width: 50%;
+    border-radius: 2% 0 0 2%;
+}
+
+h1{
+    font-weight: 700;
+    font-family: "Fraunces";
+    margin:0;
+
+}
+
+h4 {
+    color:hsl(228, 12%, 48%);
+    font-weight: 400;
+    font-family: "Montserrat";
+    font-size: small;
+    margin:0;
+}
+
+p{
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    font-family: "Montserrat";
+    font-weight: 500;
+    /* line-height: 30px; */
+    margin:0;
+    
+}
+
+.text {
+    padding: 5%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+
+.amount {
+    display:flex;
+    gap: 4%;
+
+}
+
+.second {
+    text-decoration: line-through;
+    font-size: 14px;
+    margin:0;
+    align-items: center;
+    display: inline-flex;
+
+}
+
+.first {
+    color:hsl(158, 36%, 37%);
+    font-family: "Fraunces";
+    font-weight: 700;
+    font-size: 25px;
+}
+
+
+button {
+    background: hsl(158, 36%, 37%);
+    color: white;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
